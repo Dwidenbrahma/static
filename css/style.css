@@ -1,0 +1,390 @@
+/* Reset default margin and padding for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Set the font family for body and headings */
+  body, h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Style for the body background */
+  body {
+    background-color: #FFFBF5;
+  }
+  .fixed{
+
+    position: fixed;
+    top:10px;
+    right:10px;
+    
+  }
+
+  /*for changing dark and light mode */
+  .fixed button{
+    padding: 10px;
+    border: 1px solid #c5c0c0;
+    text-transform: capitalize;
+    background-color: #FFFBF5;
+
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    padding: 15px;
+
+  }
+
+  .fixed button:hover{
+    background-color: #cac7c7;
+    color: grey;
+  }
+  
+  /* for javaascript styling*/
+/* 
+  .fixed > button:nth-child(2){
+    display: none;
+  } */
+
+
+  /* Styling for the top section */
+  .top {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  /* Styling for the top section's h1 element */
+  .top h1 {
+    margin: 20px;
+    font-size: 35px;
+  }
+  
+  /* Styling for the top section's paragraphs */
+  .top p {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the top section's spans */
+  .top span {
+    background-color: #000000;
+    color: #fff;
+    padding: 2px 7px 2px 7px;
+  }
+  
+  /* Styling for the main section */
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    margin: 20px 60px;
+    padding: 20px;
+  }
+  
+  /* Styling for the main container */
+  .main-container {
+  
+  }
+  
+  /* Styling for the side-bar container */
+  .side-bar-container {
+  
+  }
+  
+  /* Styling for the first container */
+  .container-1 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
+  }
+  
+  /* Styling for images inside container-1 */
+  .container-1 img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* Styling for side-container-1 */
+  .side-container-1 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* Styling for images inside side-container-1 */
+  .side-container-1 img {
+    width: 100%;
+    height: 350px;
+  }
+  
+  /* Styling for inside-container-1 */
+  .inside-container-1 {
+    margin: 10px;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  /* Styling for paragraphs inside inside-container-1 */
+  .inside-container-1 p {
+    padding: 15px 10px 15px 10px;
+  }
+  
+  /* Styling for h3 headings inside inside-container-1 */
+  .inside-container-1 h3 {
+    padding: 4px 10px 10px 10px;
+    font-size: 30px;
+  }
+  
+  /* Styling for h4 headings inside inside-container-1 */
+  .inside-container-1 h4 {
+    padding: 10px 10px 10px 10px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  /* Styling for spans inside inside-container-1 */
+  .inside-container-1 span {
+    color: grey;
+  }
+  
+  /* Styling for inside-container-3 */
+  .inside-container-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Styling for buttons inside inside-container-3 */
+  .inside-container-3 button {
+    border: 1px solid #afaaaa;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+    font-weight: bolder;
+  }
+  
+  /* Styling for h5 headings inside inside-container-3 */
+  .inside-container-3 h5 {
+    padding: 10px 10px 0px 10px;
+    font-size: 15px;
+  }
+  
+  /* Styling for spans inside inside-container-3 */
+  .inside-container-3 span {
+    background: #000000;
+    color: #fff;
+    padding: 2px 5px 2px 5px;
+  }
+  
+  /* Styling for side-container-1 */
+  .side-container-1 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  /* Styling for h3 and p inside side-container-1 */
+  .side-container-1 h3, p {
+    margin: 15px 10px 14px 7px;
+    padding: 7px 10px 7px 7px;
+  }
+  
+  /* Styling for side-container-2 */
+  .side-container-2 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  /* Styling for the posts section */
+  .posts {
+    border-bottom: 1px solid rgb(202, 197, 197);
+    display: flex;
+    cursor: pointer;
+  }
+  
+  /* Styling for the header of posts section */
+  .head {
+    background-color: #F3EEEA;
+  }
+  
+  /* Styling for h2 headings inside posts */
+  .posts h2 {
+    padding: 10px;
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  
+  /* Hover effect for posts */
+  .posts:hover {
+    background-color: #F3EEEA;
+  }
+  
+  /* Hover effect for buttons inside inside-container-3 */
+  .inside-container-3 button:hover {
+    background-color: #F3EEEA;
+  }
+  
+  /* Styling for images inside posts */
+  .posts img {
+    width: 20%;
+    padding: 10px;
+  }
+  
+  /* Styling for insite-post elements */
+  .insite-post {
+    margin: 6px;
+    padding: 6px;
+  }
+  
+  /* Styling for h3 headings inside insite-post */
+  .insite-post h3 {
+    font-weight: 200;
+    font-size: 20px;
+    padding: 0px 0px 4px 0px;
+  }
+  
+  /* Styling for h5 headings inside insite-post */
+  .insite-post h5 {
+    padding: 5px 0px 0px 0px;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  
+  /* Styling for side-container-3 */
+  .side-container-3 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  /* Styling for the tags section */
+  .tags {
+    border-bottom: 1px solid rgb(202, 197, 197);
+    background-color: #F3EEEA;
+  }
+  
+  /* Styling for h4 headings inside tags */
+  .tags h4 {
+    text-transform: capitalize;
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  /* Styling for span-tag elements */
+  .span-tag {
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 6px;
+    cursor: pointer;
+  }
+  
+  /* Styling for buttons inside span-tag elements */
+  .span-tag button {
+    font-size: 13px;
+    font-weight: 100;
+    background-color: #F3EEEA;
+    color: grey;
+    margin: 10px 5px;
+    border: none;
+    padding: 5px;
+  }
+  
+  /* Special styling for sp1 class within span-tag elements */
+  .span-tag .sp1 {
+    background-color: #070404;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Styling for the footer section */
+  footer {
+    background-color: #7D7C7C;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+    padding: 5% 0 3% 4%;
+  }
+  
+  /* Styling for buttons inside the footer */
+  footer button {
+    border: none;
+    color: #fff;
+    background-color: #000000;
+    padding: 19px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    width: 120px;
+  }
+  
+  /* Special styling for the first button in the footer */
+  footer > button:first-child {
+    background-color: #3f3d3d;
+  }
+  
+  /* Hover effect for the first button in the footer */
+  footer > button:first-child:hover {
+    background-color: #afaaaa;
+  }
+  
+  /* Hover effect for the second button in the footer */
+  footer > button:nth-child(2):hover {
+    background-color: #F3EEEA;
+    color: #000000;
+  }
+  
+  /* Styling for text within the footer */
+  footer p {
+    font-size: 14px;
+  }
+  
+
+
+
+/* Extra Small Screens (Mobile Phones) */
+@media screen and (max-width: 480px) {
+    /* CSS rules for extra small screens */
+    
+    body, h1, h2, h3, h4, h5 p{
+        font-size: 15px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .posts img {
+        width: 10%;
+        padding: 10px;
+    }
+
+
+  }
+  
+  /* Small to Medium Screens (Mobile Phones and Small Tablets) */
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    /* CSS rules for small to medium screens */
+    body, h1, h2, h3, h4, h5 p{
+        font-size: 17px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .posts img {
+        width: 15%;
+        padding: 10px;
+    }
+  }
+  
+  /* Large Screens (Desktops, Laptops) */
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* CSS rules for large screens */
+    
+  .posts img {
+            width: 10%;
+            padding: 10px;
+        }
+  
+    } 
+
+  
+  
